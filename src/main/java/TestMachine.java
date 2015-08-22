@@ -1,19 +1,18 @@
 
 import io.appium.java_client.AppiumDriver;
-import org.apache.commons.lang3.ObjectUtils;
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import sun.jvm.hotspot.utilities.Assert;
+
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
-import java.util.Set;
+
 
 /**
  * Created by gritsay on 8/19/15.
