@@ -31,8 +31,6 @@ public class TestMachine {
         String appPath = "/Users/gritsay/Desktop/carpoolarabia_ios.app";
         capabilities.setCapability("app", appPath);
         driver = new AppiumDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities)
-
-
         {
             @Override
             public WebElement scrollTo(String s) {
